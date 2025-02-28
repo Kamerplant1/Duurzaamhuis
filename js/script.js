@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function updateDateTime() {
         const now = new Date();
-        const formattedDate = now.toLocaleDateString('en-GB', {
+        const formattedDate = now.toLocaleDateString('nl', {
             weekday: 'long',
             year: 'numeric',
             month: 'long',
